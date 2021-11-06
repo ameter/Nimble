@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8364F64B27374AD60061BED5 /* TextModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8364F64A27374AD60061BED5 /* TextModel.swift */; };
 		CBB1BE1A273631DB007586B3 /* UnsafePointersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE19273631DB007586B3 /* UnsafePointersApp.swift */; };
 		CBB1BE1C273631DB007586B3 /* ReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE1B273631DB007586B3 /* ReaderView.swift */; };
 		CBB1BE1E273631DD007586B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB1BE1D273631DD007586B3 /* Assets.xcassets */; };
@@ -134,6 +135,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8364F64A27374AD60061BED5 /* TextModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModel.swift; sourceTree = "<group>"; };
 		CBB1BE16273631DB007586B3 /* UnsafePointers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnsafePointers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB1BE19273631DB007586B3 /* UnsafePointersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsafePointersApp.swift; sourceTree = "<group>"; };
 		CBB1BE1B273631DB007586B3 /* ReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderView.swift; sourceTree = "<group>"; };
@@ -236,6 +238,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8364F64927374AA10061BED5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8364F64A27374AD60061BED5 /* TextModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		CBB1BE0D273631DB007586B3 = {
 			isa = PBXGroup;
 			children = (
@@ -272,6 +282,7 @@
 		CBB1BE18273631DB007586B3 /* UnsafePointers */ = {
 			isa = PBXGroup;
 			children = (
+				8364F64927374AA10061BED5 /* Model */,
 				CBB1BEC227364CF8007586B3 /* MenuView */,
 				CBB1BEC127364CF0007586B3 /* ReaderView */,
 				CBB1BEBB2736433A007586B3 /* Extensions */,
@@ -706,6 +717,7 @@
 				CBB1BE26273631DD007586B3 /* UnsafePointers.xcdatamodeld in Sources */,
 				CBB62D4027365638000157BE /* Helpers.swift in Sources */,
 				CBB1BE1C273631DB007586B3 /* ReaderView.swift in Sources */,
+				8364F64B27374AD60061BED5 /* TextModel.swift in Sources */,
 				CBB1BE1A273631DB007586B3 /* UnsafePointersApp.swift in Sources */,
 				CBB1BEA5273635AD007586B3 /* Widget.intentdefinition in Sources */,
 				CBB1BEC427364D13007586B3 /* ReaderViewModel.swift in Sources */,
