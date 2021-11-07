@@ -12,6 +12,7 @@ import TextSourceKit
 struct UnsafePointersApp: App {
     var body: some Scene {
         WindowGroup {
+//          ReaderView()
           ReaderView(viewModel: .init(textSource: MockTextSource()))
         }
     }

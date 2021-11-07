@@ -11,7 +11,7 @@ import Combine
 import TextSourceKit
 
 class ReaderViewModel: ObservableObject {
-  @Published var currentWord = "Hello"
+  @Published var currentWord = "Tap to begin"
   
   var textSource: TextSourceKit.TextSource
   var cancellables = Set<AnyCancellable>()

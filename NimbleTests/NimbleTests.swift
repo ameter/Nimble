@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import Nimble
+@testable import nimble
 
 class NimbleTests: XCTestCase {
 
