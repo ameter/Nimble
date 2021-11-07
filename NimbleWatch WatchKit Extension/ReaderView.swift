@@ -6,11 +6,20 @@
 //
 
 import SwiftUI
+import TextSourceKit
 
 struct ReaderView: View {
+    @StateObject var viewModel = ReaderViewModel()
+    
     var body: some View {
-        Text("Hello, World!")
+        Text(viewModel.currentWord)
             .padding()
+            .onTapGesture(perform: viewModel.tap)
+            .onLongPressGesture(perform: longPress)
+    }
+    
+    func longPress() {
+        print("long pressed")
     }
 }
 

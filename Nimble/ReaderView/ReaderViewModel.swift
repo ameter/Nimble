@@ -33,11 +33,11 @@ class ReaderViewModel: ObservableObject {
     else {
       timer = Timer.publish(every: 0.5, on: .main, in: .default).autoconnect()
       timerCancellable = timer.sink { [unowned self] v in
-        self.currentIndex += 1
-        if self.currentIndex == self.wordBank.count - 1 {
-          timer.upstream.connect().cancel()
-        }
-        self.currentWord = self.wordBank[self.currentIndex]
+          self.currentIndex += 1
+          if self.currentIndex == self.wordBank.count - 1 {
+            timer.upstream.connect().cancel()
+          }
+          self.currentWord = self.wordBank[self.currentIndex]
       }
     }
   }
