@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct UnsafePointersApp: App {
+struct NimbleApp: App {
     @SceneBuilder var body: some Scene {
         WindowGroup {
             NavigationView {

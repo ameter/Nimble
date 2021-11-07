@@ -7,7 +7,7 @@
 
 import XCTest
 
-class UnsafePointersUITestsLaunchTests: XCTestCase {
+class NimbleUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
