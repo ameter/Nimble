@@ -13,26 +13,37 @@ struct ReaderView: View {
   @ObservedObject var viewModel: ReaderViewModel
   @State private var showingMenu = false
   @State private var showingSettings = false
+  @State private var isRunning = false
   
   var body: some View {
     VStack {
       HStack {
+        
         ModalIconButton(
           displayingModal: $showingMenu,
           image: Image(systemName: "menucard"),
           modal: MenuView.init
         )
+          .hidden(viewModel.isRunning)
         Spacer()
         ModalIconButton(
           displayingModal: $showingSettings,
           image: Image(systemName: "gear"),
           modal: SettingsView.init
         )
+          .hidden(viewModel.isRunning)
       }.padding()
       Spacer()
       Text(viewModel.currentWord)
       Spacer()
     }
+    .gesture(
+      TapGesture()
+        .onEnded {
+          print("Tap Gesture")
+          viewModel.runStatusToggle()
+        }
+    )
   }
 }
 
