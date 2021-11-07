@@ -5,6 +5,11 @@ import PackageDescription
 
 let package = Package(
     name: "TextSourceKit",
+    platforms: [
+      .iOS(.v15),
+      .macOS(.v12),
+      .watchOS(.v8)
+    ],
     products: [
         .library(
             name: "TextSourceKit",

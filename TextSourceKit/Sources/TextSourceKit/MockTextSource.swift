@@ -4,7 +4,6 @@
 
 import Foundation
 
-
 public struct MockTextSource: TextSource {
     private static let text = """
 Apple Inc. is an American multinational technology company that specializes in consumer electronics, computer software and online services. Apple is the world's largest technology company by revenue (totaling $274.5 billion in 2020) and, since January 2021, the world's most valuable company. As of 2021, Apple is the world's fourth-largest PC vendor by unit sales and fourth-largest smartphone manufacturer.It is one of the Big Five American information technology companies, along with Amazon, Google (Alphabet), Facebook (Meta) and Microsoft.
@@ -14,7 +13,7 @@ As the market for personal computers expanded and evolved through the 1990s, App
 In August 2018, Apple became the first publicly traded U.S. company to be valued at over $1 trillionand the first valued over $2 trillion two years later. It has a high level of brand loyalty and is ranked as the world's most valuable brand; as of January 2021, there are 1.65 billion Apple products in use worldwide. The company receives significant criticism regarding the labor practices of its contractors, its environmental practices and business ethics, including anti-competitive behavior and materials sourcing.
 """
     
-    private let words = text.components(separatedBy: .whitespacesAndNewlines)
+    public let words = text.components(separatedBy: .whitespacesAndNewlines)
     
     public init() {}
     
@@ -24,7 +23,6 @@ In August 2018, Apple became the first publicly traded U.S. company to be valued
         guard let count = count else {
             return Array(words[index...])
         }
-        
         
         if index + count < words.count {
             return Array(words[index..<index+count])
