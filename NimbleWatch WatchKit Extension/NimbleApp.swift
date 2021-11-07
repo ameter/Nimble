@@ -12,7 +12,7 @@ struct NimbleApp: App {
     @SceneBuilder var body: some Scene {
         WindowGroup {
             NavigationView {
-                ContentView()
+                ReaderView()
             }
         }
 

@@ -22,7 +22,7 @@
 		CBB1BE522736356E007586B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB1BE512736356E007586B3 /* Assets.xcassets */; };
 		CBB1BE582736356E007586B3 /* NimbleWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CBB1BE572736356E007586B3 /* NimbleWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CBB1BE5D2736356E007586B3 /* NimbleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE5C2736356E007586B3 /* NimbleApp.swift */; };
-		CBB1BE5F2736356E007586B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE5E2736356E007586B3 /* ContentView.swift */; };
+		CBB1BE5F2736356E007586B3 /* ReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE5E2736356E007586B3 /* ReaderView.swift */; };
 		CBB1BE612736356E007586B3 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE602736356E007586B3 /* NotificationController.swift */; };
 		CBB1BE632736356E007586B3 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE622736356E007586B3 /* NotificationView.swift */; };
 		CBB1BE652736356E007586B3 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE642736356E007586B3 /* ComplicationController.swift */; };
@@ -156,7 +156,7 @@
 		CBB1BE512736356E007586B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBB1BE572736356E007586B3 /* NimbleWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "NimbleWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB1BE5C2736356E007586B3 /* NimbleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimbleApp.swift; sourceTree = "<group>"; };
-		CBB1BE5E2736356E007586B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CBB1BE5E2736356E007586B3 /* ReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderView.swift; sourceTree = "<group>"; };
 		CBB1BE602736356E007586B3 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		CBB1BE622736356E007586B3 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		CBB1BE642736356E007586B3 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
@@ -354,7 +354,7 @@
 			isa = PBXGroup;
 			children = (
 				CBB1BE5C2736356E007586B3 /* NimbleApp.swift */,
-				CBB1BE5E2736356E007586B3 /* ContentView.swift */,
+				CBB1BE5E2736356E007586B3 /* ReaderView.swift */,
 				CBB1BE602736356E007586B3 /* NotificationController.swift */,
 				CBB1BE622736356E007586B3 /* NotificationView.swift */,
 				CBB1BE642736356E007586B3 /* ComplicationController.swift */,
@@ -758,7 +758,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBB1BE612736356E007586B3 /* NotificationController.swift in Sources */,
-				CBB1BE5F2736356E007586B3 /* ContentView.swift in Sources */,
+				CBB1BE5F2736356E007586B3 /* ReaderView.swift in Sources */,
 				CBB1BE652736356E007586B3 /* ComplicationController.swift in Sources */,
 				CBB1BE5D2736356E007586B3 /* NimbleApp.swift in Sources */,
 				CBB1BE632736356E007586B3 /* NotificationView.swift in Sources */,
