@@ -11,6 +11,7 @@
 		8364F68627382DCB0061BED5 /* TextSourceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8364F68527382DCB0061BED5 /* TextSourceKit */; };
 		8364F68827382F950061BED5 /* ReaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8364F68727382F950061BED5 /* ReaderViewModel.swift */; };
 		8364F689273833C80061BED5 /* TextModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8364F64A27374AD60061BED5 /* TextModel.swift */; };
+		83A790E1273888170017DDF2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A790E0273888170017DDF2 /* SettingsView.swift */; };
 		CB6B5BC12738224A00CA397D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B5BC02738224900CA397D /* SettingsView.swift */; };
 		CB6B5BC327382C9D00CA397D /* View+Hidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B5BC227382C9D00CA397D /* View+Hidden.swift */; };
 		CB6B5BC527383A4400CA397D /* IntSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B5BC427383A4400CA397D /* IntSlider.swift */; };
@@ -43,19 +44,11 @@
 		CBB1BE8027363570007586B3 /* NimbleWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE7F27363570007586B3 /* NimbleWatchUITests.swift */; };
 		CBB1BE8227363570007586B3 /* NimbleWatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE8127363570007586B3 /* NimbleWatchUITestsLaunchTests.swift */; };
 		CBB1BE8527363570007586B3 /* NimbleWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CBB1BE4F2736356C007586B3 /* NimbleWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		CBB1BE9A273635AB007586B3 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB1BE99273635AB007586B3 /* WidgetKit.framework */; };
-		CBB1BE9C273635AB007586B3 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB1BE9B273635AB007586B3 /* SwiftUI.framework */; };
-		CBB1BE9F273635AB007586B3 /* Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE9E273635AB007586B3 /* Widget.swift */; };
-		CBB1BEA2273635AD007586B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB1BEA1273635AD007586B3 /* Assets.xcassets */; };
-		CBB1BEA4273635AD007586B3 /* Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BEA0273635AB007586B3 /* Widget.intentdefinition */; };
-		CBB1BEA5273635AD007586B3 /* Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BEA0273635AB007586B3 /* Widget.intentdefinition */; };
-		CBB1BEA8273635AD007586B3 /* NimbleWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CBB1BE98273635AB007586B3 /* NimbleWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CBB1BEBA273641E3007586B3 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BEB9273641E3007586B3 /* MenuView.swift */; };
 		CBB1BEBD27364351007586B3 /* View+PreviewAllColorSchemes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BEBC27364351007586B3 /* View+PreviewAllColorSchemes.swift */; };
 		CBB1BEC0273645BC007586B3 /* webster_dictionary in Resources */ = {isa = PBXBuildFile; fileRef = CBB1BEBF273645BC007586B3 /* webster_dictionary */; };
 		CBB1BEC427364D13007586B3 /* ReaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BEC327364D13007586B3 /* ReaderViewModel.swift */; };
 		CBB62D4027365638000157BE /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB62D3F27365638000157BE /* Helpers.swift */; };
-		CBB62D412736565E000157BE /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB62D3F27365638000157BE /* Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,13 +94,6 @@
 			remoteGlobalIDString = CBB1BE4E2736356C007586B3;
 			remoteInfo = UnsafePointersWatch;
 		};
-		CBB1BEA6273635AD007586B3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CBB1BE0E273631DB007586B3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CBB1BE97273635AB007586B3;
-			remoteInfo = WidgetExtension;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -139,7 +125,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				CBB1BEA8273635AD007586B3 /* NimbleWidgetExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,6 +134,7 @@
 /* Begin PBXFileReference section */
 		8364F64A27374AD60061BED5 /* TextModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModel.swift; sourceTree = "<group>"; };
 		8364F68727382F950061BED5 /* ReaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderViewModel.swift; sourceTree = "<group>"; };
+		83A790E0273888170017DDF2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		CB6B5BC02738224900CA397D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		CB6B5BC227382C9D00CA397D /* View+Hidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Hidden.swift"; sourceTree = "<group>"; };
 		CB6B5BC427383A4400CA397D /* IntSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntSlider.swift; sourceTree = "<group>"; };
@@ -189,13 +175,8 @@
 		CBB1BE7B27363570007586B3 /* NimbleWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimbleWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB1BE7F27363570007586B3 /* NimbleWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimbleWatchUITests.swift; sourceTree = "<group>"; };
 		CBB1BE8127363570007586B3 /* NimbleWatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimbleWatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		CBB1BE98273635AB007586B3 /* NimbleWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NimbleWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB1BE99273635AB007586B3 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		CBB1BE9B273635AB007586B3 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		CBB1BE9E273635AB007586B3 /* Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widget.swift; sourceTree = "<group>"; };
-		CBB1BEA0273635AB007586B3 /* Widget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Widget.intentdefinition; sourceTree = "<group>"; };
-		CBB1BEA1273635AD007586B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CBB1BEA3273635AD007586B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBB1BEA9273635AD007586B3 /* WidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WidgetExtension.entitlements; sourceTree = "<group>"; };
 		CBB1BEB9273641E3007586B3 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		CBB1BEBC27364351007586B3 /* View+PreviewAllColorSchemes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+PreviewAllColorSchemes.swift"; sourceTree = "<group>"; };
@@ -249,15 +230,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CBB1BE95273635AB007586B3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CBB1BE9C273635AB007586B3 /* SwiftUI.framework in Frameworks */,
-				CBB1BE9A273635AB007586B3 /* WidgetKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -269,13 +241,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		8364F68A27383E790061BED5 /* ReaderView */ = {
+		8364F68A27383E790061BED5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				CBB1BE5E2736356E007586B3 /* ReaderView.swift */,
 				8364F68727382F950061BED5 /* ReaderViewModel.swift */,
+				83A790E0273888170017DDF2 /* SettingsView.swift */,
 			);
-			path = ReaderView;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		CB6B5BBF2738223F00CA397D /* SettingsView */ = {
@@ -298,7 +271,6 @@
 				CBB1BE5B2736356E007586B3 /* NimbleWatch WatchKit Extension */,
 				CBB1BE7427363570007586B3 /* NimbleWatchTests */,
 				CBB1BE7E27363570007586B3 /* NimbleWatchUITests */,
-				CBB1BE9D273635AB007586B3 /* NimbleWidget */,
 				CBB1BE17273631DB007586B3 /* Products */,
 				CBB1BE4A273634E8007586B3 /* Frameworks */,
 			);
@@ -314,7 +286,6 @@
 				CBB1BE572736356E007586B3 /* NimbleWatch WatchKit Extension.appex */,
 				CBB1BE7127363570007586B3 /* NimbleWatchTests.xctest */,
 				CBB1BE7B27363570007586B3 /* NimbleWatchUITests.xctest */,
-				CBB1BE98273635AB007586B3 /* NimbleWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -383,7 +354,7 @@
 		CBB1BE5B2736356E007586B3 /* NimbleWatch WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				8364F68A27383E790061BED5 /* ReaderView */,
+				8364F68A27383E790061BED5 /* Views */,
 				CBB1BE5C2736356E007586B3 /* NimbleApp.swift */,
 				CBB1BE602736356E007586B3 /* NotificationController.swift */,
 				CBB1BE622736356E007586B3 /* NotificationView.swift */,
@@ -419,17 +390,6 @@
 				CBB1BE8127363570007586B3 /* NimbleWatchUITestsLaunchTests.swift */,
 			);
 			path = NimbleWatchUITests;
-			sourceTree = "<group>";
-		};
-		CBB1BE9D273635AB007586B3 /* NimbleWidget */ = {
-			isa = PBXGroup;
-			children = (
-				CBB1BE9E273635AB007586B3 /* Widget.swift */,
-				CBB1BEA0273635AB007586B3 /* Widget.intentdefinition */,
-				CBB1BEA1273635AD007586B3 /* Assets.xcassets */,
-				CBB1BEA3273635AD007586B3 /* Info.plist */,
-			);
-			path = NimbleWidget;
 			sourceTree = "<group>";
 		};
 		CBB1BEBB2736433A007586B3 /* Extensions */ = {
@@ -491,7 +451,6 @@
 			);
 			dependencies = (
 				CBB1BE8427363570007586B3 /* PBXTargetDependency */,
-				CBB1BEA7273635AD007586B3 /* PBXTargetDependency */,
 			);
 			name = Nimble;
 			packageProductDependencies = (
@@ -610,23 +569,6 @@
 			productReference = CBB1BE7B27363570007586B3 /* NimbleWatchUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		CBB1BE97273635AB007586B3 /* NimbleWidgetExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CBB1BEAA273635AD007586B3 /* Build configuration list for PBXNativeTarget "NimbleWidgetExtension" */;
-			buildPhases = (
-				CBB1BE94273635AB007586B3 /* Sources */,
-				CBB1BE95273635AB007586B3 /* Frameworks */,
-				CBB1BE96273635AB007586B3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = NimbleWidgetExtension;
-			productName = WidgetExtension;
-			productReference = CBB1BE98273635AB007586B3 /* NimbleWidgetExtension.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -662,9 +604,6 @@
 						CreatedOnToolsVersion = 13.1;
 						TestTargetID = CBB1BE4E2736356C007586B3;
 					};
-					CBB1BE97273635AB007586B3 = {
-						CreatedOnToolsVersion = 13.1;
-					};
 				};
 			};
 			buildConfigurationList = CBB1BE11273631DB007586B3 /* Build configuration list for PBXProject "Nimble" */;
@@ -687,7 +626,6 @@
 				CBB1BE562736356E007586B3 /* NimbleWatch WatchKit Extension */,
 				CBB1BE7027363570007586B3 /* NimbleWatchTests */,
 				CBB1BE7A27363570007586B3 /* NimbleWatchUITests */,
-				CBB1BE97273635AB007586B3 /* NimbleWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -748,14 +686,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CBB1BE96273635AB007586B3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CBB1BEA2273635AD007586B3 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -776,7 +706,6 @@
 				CB6B5BC327382C9D00CA397D /* View+Hidden.swift in Sources */,
 				8364F64B27374AD60061BED5 /* TextModel.swift in Sources */,
 				CBB1BE1A273631DB007586B3 /* UnsafePointersApp.swift in Sources */,
-				CBB1BEA5273635AD007586B3 /* Widget.intentdefinition in Sources */,
 				CB6B5BCB2738598A00CA397D /* AnyTextSource.swift in Sources */,
 				CB6B5BCF27386FF500CA397D /* TextSourceSelection.swift in Sources */,
 				CBB1BEC427364D13007586B3 /* ReaderViewModel.swift in Sources */,
@@ -807,6 +736,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBB1BE612736356E007586B3 /* NotificationController.swift in Sources */,
+				83A790E1273888170017DDF2 /* SettingsView.swift in Sources */,
 				CBB1BE5F2736356E007586B3 /* ReaderView.swift in Sources */,
 				CBB1BE652736356E007586B3 /* ComplicationController.swift in Sources */,
 				8364F689273833C80061BED5 /* TextModel.swift in Sources */,
@@ -830,16 +760,6 @@
 			files = (
 				CBB1BE8227363570007586B3 /* NimbleWatchUITestsLaunchTests.swift in Sources */,
 				CBB1BE8027363570007586B3 /* NimbleWatchUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CBB1BE94273635AB007586B3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CBB1BEA4273635AD007586B3 /* Widget.intentdefinition in Sources */,
-				CBB62D412736565E000157BE /* Helpers.swift in Sources */,
-				CBB1BE9F273635AB007586B3 /* Widget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -875,11 +795,6 @@
 			isa = PBXTargetDependency;
 			target = CBB1BE4E2736356C007586B3 /* NimbleWatch */;
 			targetProxy = CBB1BE8327363570007586B3 /* PBXContainerItemProxy */;
-		};
-		CBB1BEA7273635AD007586B3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CBB1BE97273635AB007586B3 /* NimbleWidgetExtension */;
-			targetProxy = CBB1BEA6273635AD007586B3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1374,64 +1289,6 @@
 			};
 			name = Release;
 		};
-		CBB1BEAB273635AD007586B3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_ENTITLEMENTS = WidgetExtension.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 45B3ZMSCD4;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NimbleWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = NimbleWidget;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.unsafepointers.nimble.Widget;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		CBB1BEAC273635AD007586B3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_ENTITLEMENTS = WidgetExtension.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 45B3ZMSCD4;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NimbleWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = NimbleWidget;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.unsafepointers.nimble.Widget;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1503,15 +1360,6 @@
 			buildConfigurations = (
 				CBB1BE9227363570007586B3 /* Debug */,
 				CBB1BE9327363570007586B3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CBB1BEAA273635AD007586B3 /* Build configuration list for PBXNativeTarget "NimbleWidgetExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CBB1BEAB273635AD007586B3 /* Debug */,
-				CBB1BEAC273635AD007586B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
