@@ -24,7 +24,6 @@ struct PDFDocumentPicker: UIViewControllerRepresentable {
   }
   
   func updateUIViewController(_ uiViewController: UIDocumentPickerViewController, context: Context) { }
-  
 }
 
 class DocumentPickerCoordinator: NSObject, UIDocumentPickerDelegate {

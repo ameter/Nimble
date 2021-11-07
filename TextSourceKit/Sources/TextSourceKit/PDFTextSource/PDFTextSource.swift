@@ -29,7 +29,7 @@ public struct PDFTextSource: TextSource {
         
     if let string = pdf.string {
       let separators: CharacterSet = .whitespacesAndNewlines
-        .union(.punctuationCharacters)
+//        .union(.punctuationCharacters)
       
       words = string.components(separatedBy: separators)
     } else {
