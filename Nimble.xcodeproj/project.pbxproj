@@ -13,6 +13,7 @@
 		8364F689273833C80061BED5 /* TextModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8364F64A27374AD60061BED5 /* TextModel.swift */; };
 		CB6B5BC12738224A00CA397D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B5BC02738224900CA397D /* SettingsView.swift */; };
 		CB6B5BC327382C9D00CA397D /* View+Hidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B5BC227382C9D00CA397D /* View+Hidden.swift */; };
+		CB6B5BC527383A4400CA397D /* IntSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B5BC427383A4400CA397D /* IntSlider.swift */; };
 		CBB1BE1A273631DB007586B3 /* UnsafePointersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE19273631DB007586B3 /* UnsafePointersApp.swift */; };
 		CBB1BE1C273631DB007586B3 /* ReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE1B273631DB007586B3 /* ReaderView.swift */; };
 		CBB1BE1E273631DD007586B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB1BE1D273631DD007586B3 /* Assets.xcassets */; };
@@ -144,6 +145,7 @@
 		8364F68727382F950061BED5 /* ReaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderViewModel.swift; sourceTree = "<group>"; };
 		CB6B5BC02738224900CA397D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		CB6B5BC227382C9D00CA397D /* View+Hidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Hidden.swift"; sourceTree = "<group>"; };
+		CB6B5BC427383A4400CA397D /* IntSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntSlider.swift; sourceTree = "<group>"; };
 		CBB1BE16273631DB007586B3 /* nimble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nimble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB1BE19273631DB007586B3 /* UnsafePointersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsafePointersApp.swift; sourceTree = "<group>"; };
 		CBB1BE1B273631DB007586B3 /* ReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderView.swift; sourceTree = "<group>"; };
@@ -433,6 +435,7 @@
 			children = (
 				CBB1BE1B273631DB007586B3 /* ReaderView.swift */,
 				CBB1BEC327364D13007586B3 /* ReaderViewModel.swift */,
+				CB6B5BC427383A4400CA397D /* IntSlider.swift */,
 			);
 			path = ReaderView;
 			sourceTree = "<group>";
@@ -735,6 +738,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBB1BE23273631DD007586B3 /* Persistence.swift in Sources */,
+				CB6B5BC527383A4400CA397D /* IntSlider.swift in Sources */,
 				CBB1BEBA273641E3007586B3 /* MenuView.swift in Sources */,
 				CBB1BEBD27364351007586B3 /* View+PreviewAllColorSchemes.swift in Sources */,
 				CBB1BE26273631DD007586B3 /* UnsafePointers.xcdatamodeld in Sources */,

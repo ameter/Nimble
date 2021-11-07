@@ -13,7 +13,7 @@ import TextSourceKit
 class ReaderViewModel: ObservableObject {
   @Published var currentWord = "Tap to begin"
   @Published var isRunning = false
-  var timer = Timer.publish(every: 0.5, on: .main, in: .default).autoconnect()
+  @Published var wpm = 120
   
   var textSource: TextSourceKit.TextSource
   var cancellables = Set<AnyCancellable>()
@@ -25,13 +25,23 @@ class ReaderViewModel: ObservableObject {
     wordBank = mockWords()
   }
   
+  func goBack10() {
+    // TODO
+  }
+  
+  func goForward10() {
+    // TODO
+  }
+  
+  var timer = Timer.publish(every: 0.5, on: .main, in: .default).autoconnect()
   var timerCancellable: AnyCancellable?
   
   func runStatusToggle() {
     isRunning.toggle()
     if !isRunning { timer.upstream.connect().cancel() }
     else {
-      timer = Timer.publish(every: 0.5, on: .main, in: .default).autoconnect()
+      let interval = 60 / Double(wpm)
+      timer = Timer.publish(every: interval, on: .main, in: .default).autoconnect()
       timerCancellable = timer.sink { [unowned self] v in
           self.currentIndex += 1
           if self.currentIndex == self.wordBank.count - 1 {
@@ -42,32 +52,3 @@ class ReaderViewModel: ObservableObject {
     }
   }
 }
-
-// Mocking
-//extension ReaderViewModel {
-//  func mockWords() -> [String] {
-//    guard let wordsList = Bundle.main.path(forResource: "webster_dictionary", ofType: nil)
-//            .flatMap({
-//              try? String(contentsOfFile: $0)
-//            })?
-//            .components(separatedBy: .newlines)
-//    else { return [] }
-//
-//    let zeroIndex = Int.random(in: 0...wordsList.count - 100)
-//    return wordsList[zeroIndex...zeroIndex + 100].map { $0 }
-//  }
-//
-//  func mock() {
-//    wordBank = mockWords()
-//    Timer.publish(every: 0.5, on: .main, in: .default)
-//      .autoconnect()
-//      .sink { [unowned self] v in
-//        self.currentIndex += 1
-//        if self.currentIndex == self.wordBank.count - 1 {
-//          cancellables.forEach { $0.cancel() }
-//        }
-//        self.currentWord = self.wordBank[self.currentIndex]
-//      }
-//      .store(in: &cancellables)
-//  }
-//}

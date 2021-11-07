@@ -13,12 +13,10 @@ struct ReaderView: View {
   @ObservedObject var viewModel: ReaderViewModel
   @State private var showingMenu = false
   @State private var showingSettings = false
-  @State private var isRunning = false
   
   var body: some View {
     VStack {
       HStack {
-        
         ModalIconButton(
           displayingModal: $showingMenu,
           image: Image(systemName: "menucard"),
@@ -34,16 +32,54 @@ struct ReaderView: View {
           .hidden(viewModel.isRunning)
       }.padding()
       Spacer()
-      Text(viewModel.currentWord)
-      Spacer()
-    }
-    .gesture(
-      TapGesture()
-        .onEnded {
-          print("Tap Gesture")
-          viewModel.runStatusToggle()
+      HStack {
+        Button {
+          viewModel.goBack10()
+        } label: {
+          Image(systemName: "gobackward.10")
+            .imageScale(.large)
+            .foregroundColor(
+              Color(UIColor.secondaryLabel)
+            )
         }
-    )
+        .hidden(viewModel.isRunning)
+        
+        Spacer()
+        
+        Text(viewModel.currentWord)
+        
+        Spacer()
+        
+        Button {
+          viewModel.goForward10()
+        } label: {
+          Image(systemName: "goforward.10")
+            .imageScale(.large)
+            .foregroundColor(
+              Color(UIColor.secondaryLabel)
+            )
+        }
+        .hidden(viewModel.isRunning)
+      }
+      .padding()
+      Spacer()
+      VStack {
+        IntSlider(viewModel: viewModel)
+          .hidden(viewModel.isRunning)
+      }.padding()
+      
+    }
+    .onTapGesture {
+      print("Tap Gesture")
+      viewModel.runStatusToggle()
+    }
+//    .gesture(
+//      TapGesture()
+//        .onEnded {
+//          print("Tap Gesture")
+//          viewModel.runStatusToggle()
+//        }
+//    )
   }
 }
 
