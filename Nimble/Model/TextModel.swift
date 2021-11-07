@@ -12,9 +12,18 @@ import TextSourceKit
 class TextModel: Sequence {
     public var currentIndex: Int?
     
-    private let words: [String]
-    
+    private var words: [String]
+  
+    private var source: TextSource
+  
+    public func changeSource(to source: TextSource) {
+      words = []
+      self.source = source
+      words = source.fetch(count: 1_000_000)
+    }
+  
     init(source: TextSource) {
+        self.source = source
         words = source.fetch(count: 1_000_000)
     }
     

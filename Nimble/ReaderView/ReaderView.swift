@@ -20,7 +20,7 @@ struct ReaderView: View {
         ModalIconButton(
           displayingModal: $showingMenu,
           image: Image(systemName: "menucard"),
-          modal: MenuView.init
+          modal: { MenuView(viewModel.textModel) }
         )
           .hidden(viewModel.isRunning)
         Spacer()
@@ -40,18 +40,6 @@ struct ReaderView: View {
           action: viewModel.goBack10
         )
           .hidden(viewModel.isRunning)
-
-        
-//        Button {
-//          viewModel.goBack10()
-//        } label: {
-//          Image(systemName: "gobackward.10")
-//            .imageScale(.large)
-//            .foregroundColor(
-//              Color(UIColor.secondaryLabel)
-//            )
-//        }
-//        .hidden(viewModel.isRunning)
         
         Spacer()
         
@@ -66,16 +54,6 @@ struct ReaderView: View {
           action: viewModel.goForward10
         )
           .hidden(viewModel.isRunning)
-
-//        Button {
-//          viewModel.goForward10()
-//        } label: {
-//          Image(systemName: "goforward.10")
-//            .imageScale(.large)
-//            .foregroundColor(
-//              Color(UIColor.secondaryLabel)
-//            )
-//        }
       }
       .padding()
       Spacer()
@@ -89,13 +67,7 @@ struct ReaderView: View {
       print("Tap Gesture")
       viewModel.runStatusToggle()
     }
-//    .gesture(
-//      TapGesture()
-//        .onEnded {
-//          print("Tap Gesture")
-//          viewModel.runStatusToggle()
-//        }
-//    )
+
   }
 }
 

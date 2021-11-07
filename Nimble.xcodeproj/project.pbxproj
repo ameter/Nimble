@@ -14,6 +14,11 @@
 		CB6B5BC12738224A00CA397D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B5BC02738224900CA397D /* SettingsView.swift */; };
 		CB6B5BC327382C9D00CA397D /* View+Hidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B5BC227382C9D00CA397D /* View+Hidden.swift */; };
 		CB6B5BC527383A4400CA397D /* IntSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B5BC427383A4400CA397D /* IntSlider.swift */; };
+		CB6B5BC727384D0700CA397D /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B5BC627384D0700CA397D /* MenuViewModel.swift */; };
+		CB6B5BC92738596900CA397D /* DocumentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B5BC82738596900CA397D /* DocumentPicker.swift */; };
+		CB6B5BCB2738598A00CA397D /* AnyTextSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B5BCA2738598A00CA397D /* AnyTextSource.swift */; };
+		CB6B5BCD27386F8E00CA397D /* PDFSelectionChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B5BCC27386F8E00CA397D /* PDFSelectionChildView.swift */; };
+		CB6B5BCF27386FF500CA397D /* TextSourceSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B5BCE27386FF500CA397D /* TextSourceSelection.swift */; };
 		CBB1BE1A273631DB007586B3 /* UnsafePointersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE19273631DB007586B3 /* UnsafePointersApp.swift */; };
 		CBB1BE1C273631DB007586B3 /* ReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE1B273631DB007586B3 /* ReaderView.swift */; };
 		CBB1BE1E273631DD007586B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB1BE1D273631DD007586B3 /* Assets.xcassets */; };
@@ -146,6 +151,11 @@
 		CB6B5BC02738224900CA397D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		CB6B5BC227382C9D00CA397D /* View+Hidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Hidden.swift"; sourceTree = "<group>"; };
 		CB6B5BC427383A4400CA397D /* IntSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntSlider.swift; sourceTree = "<group>"; };
+		CB6B5BC627384D0700CA397D /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		CB6B5BC82738596900CA397D /* DocumentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPicker.swift; sourceTree = "<group>"; };
+		CB6B5BCA2738598A00CA397D /* AnyTextSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTextSource.swift; sourceTree = "<group>"; };
+		CB6B5BCC27386F8E00CA397D /* PDFSelectionChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFSelectionChildView.swift; sourceTree = "<group>"; };
+		CB6B5BCE27386FF500CA397D /* TextSourceSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSourceSelection.swift; sourceTree = "<group>"; };
 		CBB1BE16273631DB007586B3 /* nimble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nimble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB1BE19273631DB007586B3 /* UnsafePointersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsafePointersApp.swift; sourceTree = "<group>"; };
 		CBB1BE1B273631DB007586B3 /* ReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderView.swift; sourceTree = "<group>"; };
@@ -452,6 +462,11 @@
 			isa = PBXGroup;
 			children = (
 				CBB1BEB9273641E3007586B3 /* MenuView.swift */,
+				CB6B5BC627384D0700CA397D /* MenuViewModel.swift */,
+				CB6B5BCC27386F8E00CA397D /* PDFSelectionChildView.swift */,
+				CB6B5BC82738596900CA397D /* DocumentPicker.swift */,
+				CB6B5BCA2738598A00CA397D /* AnyTextSource.swift */,
+				CB6B5BCE27386FF500CA397D /* TextSourceSelection.swift */,
 			);
 			path = MenuView;
 			sourceTree = "<group>";
@@ -746,17 +761,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBB1BE23273631DD007586B3 /* Persistence.swift in Sources */,
+				CB6B5BC727384D0700CA397D /* MenuViewModel.swift in Sources */,
 				CB6B5BC527383A4400CA397D /* IntSlider.swift in Sources */,
 				CBB1BEBA273641E3007586B3 /* MenuView.swift in Sources */,
 				CBB1BEBD27364351007586B3 /* View+PreviewAllColorSchemes.swift in Sources */,
 				CBB1BE26273631DD007586B3 /* UnsafePointers.xcdatamodeld in Sources */,
 				CBB62D4027365638000157BE /* Helpers.swift in Sources */,
+				CB6B5BCD27386F8E00CA397D /* PDFSelectionChildView.swift in Sources */,
 				CBB1BE1C273631DB007586B3 /* ReaderView.swift in Sources */,
 				CB6B5BC327382C9D00CA397D /* View+Hidden.swift in Sources */,
 				8364F64B27374AD60061BED5 /* TextModel.swift in Sources */,
 				CBB1BE1A273631DB007586B3 /* UnsafePointersApp.swift in Sources */,
 				CBB1BEA5273635AD007586B3 /* Widget.intentdefinition in Sources */,
+				CB6B5BCB2738598A00CA397D /* AnyTextSource.swift in Sources */,
+				CB6B5BCF27386FF500CA397D /* TextSourceSelection.swift in Sources */,
 				CBB1BEC427364D13007586B3 /* ReaderViewModel.swift in Sources */,
+				CB6B5BC92738596900CA397D /* DocumentPicker.swift in Sources */,
 				CB6B5BC12738224A00CA397D /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

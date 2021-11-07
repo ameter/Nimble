@@ -15,14 +15,10 @@ class ReaderViewModel: ObservableObject {
   @Published var isRunning = false
   @Published var wpm = 120
   
-  var textSource: TextSourceKit.TextSource
-  var cancellables = Set<AnyCancellable>()
-  var wordBank: [String] = []
-  var currentIndex = 0
+  var textModel: TextModel
   
   init(textSource: TextSourceKit.TextSource = MockTextSource()) {
-    self.textSource = textSource
-    wordBank = mockWords()
+    self.textModel = .init(source: textSource)
   }
   
   func goBack10() {
@@ -43,11 +39,17 @@ class ReaderViewModel: ObservableObject {
       let interval = 60 / Double(wpm)
       timer = Timer.publish(every: interval, on: .main, in: .default).autoconnect()
       timerCancellable = timer.sink { [unowned self] v in
-          self.currentIndex += 1
-          if self.currentIndex == self.wordBank.count - 1 {
-            timer.upstream.connect().cancel()
-          }
-          self.currentWord = self.wordBank[self.currentIndex]
+        if let word = textModel.next() {
+          self.currentWord = word
+        } else {
+          timer.upstream.connect().cancel()
+        }
+        
+//          self.currentIndex += 1
+//          if self.currentIndex == self.wordBank.count - 1 {
+//            timer.upstream.connect().cancel()
+//          }
+//        self.currentWord = textModel.next() ?? "" //self.wordBank[self.currentIndex]
       }
     }
   }
