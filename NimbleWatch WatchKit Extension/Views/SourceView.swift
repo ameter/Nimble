@@ -12,11 +12,17 @@ struct SourceView: View {
     @EnvironmentObject private var viewModel: ReaderViewModel
     @Environment(\.presentationMode) var presentationMode
     
+    @State private var sources = ["PDF",
+                                  "Web site",
+                                  "Copy and Paste",
+                                  "RSS Feed",
+                                  "EPUB"]
+    
     var body: some View {
         ScrollView {
             VStack {
-                ForEach((1...10).reversed(), id: \.self) {
-                    Button("Source \($0)") {
+                ForEach(sources, id: \.self) {
+                    Button("\($0)") {
                         viewModel.selectSource()
                         presentationMode.wrappedValue.dismiss()
                     }
