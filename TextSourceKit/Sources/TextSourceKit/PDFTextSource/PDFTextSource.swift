@@ -10,10 +10,10 @@ import Foundation
 #if !os(watchOS)
 import PDFKit
 
-
 enum TextSourceError: Error {
   case pdfNotFound
   case pdfNoContent
+  case pdfPermissionError
 }
 
 public struct PDFTextSource: TextSource {
@@ -23,13 +23,17 @@ public struct PDFTextSource: TextSource {
   public var words: [String] = []
   
   public init(_ url: URL) throws {
-    guard let pdf = PDFDocument(url: url) else {
+    defer { url.stopAccessingSecurityScopedResource() }
+    guard url.startAccessingSecurityScopedResource() else {
+      throw TextSourceError.pdfPermissionError
+    }
+    
+    guard let pdf = PDFDocument.init(url: url) else {
       throw TextSourceError.pdfNotFound
     }
         
     if let string = pdf.string {
       let separators: CharacterSet = .whitespacesAndNewlines
-//        .union(.punctuationCharacters)
       
       words = string.components(separatedBy: separators)
     } else {

@@ -34,12 +34,11 @@ class DocumentPickerCoordinator: NSObject, UIDocumentPickerDelegate {
   }
   
   func documentPicker(_ controller: UIDocumentPickerViewController, didPickDocumentsAt urls: [URL]) {
-  
     guard let url = urls.first else {
       // handle error
-      print("No url")
       return
     }
+    
     fileURL = url
   }
 }
