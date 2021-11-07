@@ -11,11 +11,16 @@ import TextSourceKit
 import Combine
 
 class ReaderViewModel: ObservableObject {
-    @Published var currentWord: String = "Tap to begin"
-    
-    private var isRunning = false
-    private var text = TextModel(source: MockTextSource())
+    @Published var currentWord: String = ""
+    @Published var currentSource: TextModel?
+    @Published var sources = [TextModel]()
+    @Published var isRunning = false
     private var timerCancellable: Cancellable?
+    
+    func selectSource() {
+        print("\(#function)")
+        currentSource = TextModel(source: MockTextSource())
+    }
     
     func tap() {
         if isRunning {
@@ -23,18 +28,20 @@ class ReaderViewModel: ObservableObject {
         } else {
             start()
         }
-        isRunning.toggle()
     }
     
     func start() {
         print("\(#function)")
+        guard let source = currentSource else { return }
         timerCancellable = Timer.publish(every: 0.5, on: .main, in: .default).autoconnect().sink { [unowned self]  _ in
-            currentWord = text.next() ?? "no more words"
+            currentWord = source.next() ?? ""
         }
+        isRunning = true
     }
     
     func stop() {
         print("\(#function)")
         timerCancellable?.cancel()
+        isRunning = false
     }
 }

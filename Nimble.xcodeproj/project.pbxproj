@@ -257,6 +257,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		8364F68A27383E790061BED5 /* ReaderView */ = {
+			isa = PBXGroup;
+			children = (
+				CBB1BE5E2736356E007586B3 /* ReaderView.swift */,
+				8364F68727382F950061BED5 /* ReaderViewModel.swift */,
+			);
+			path = ReaderView;
+			sourceTree = "<group>";
+		};
 		CB6B5BBF2738223F00CA397D /* SettingsView */ = {
 			isa = PBXGroup;
 			children = (
@@ -362,9 +371,8 @@
 		CBB1BE5B2736356E007586B3 /* NimbleWatch WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				8364F68A27383E790061BED5 /* ReaderView */,
 				CBB1BE5C2736356E007586B3 /* NimbleApp.swift */,
-				CBB1BE5E2736356E007586B3 /* ReaderView.swift */,
-				8364F68727382F950061BED5 /* ReaderViewModel.swift */,
 				CBB1BE602736356E007586B3 /* NotificationController.swift */,
 				CBB1BE622736356E007586B3 /* NotificationView.swift */,
 				CBB1BE642736356E007586B3 /* ComplicationController.swift */,
