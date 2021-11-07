@@ -17,6 +17,8 @@ class ReaderViewModel: ObservableObject {
     @Published var isRunning = false
     private var timerCancellable: Cancellable?
     
+    @Published var wpm = 200
+    
     func selectSource() {
         print("\(#function)")
         currentSource = TextModel(source: MockTextSource())
@@ -33,7 +35,7 @@ class ReaderViewModel: ObservableObject {
     func start() {
         print("\(#function)")
         guard let source = currentSource else { return }
-        timerCancellable = Timer.publish(every: 0.5, on: .main, in: .default).autoconnect().sink { [unowned self]  _ in
+        timerCancellable = Timer.publish(every: 60.0/Double(wpm), on: .main, in: .default).autoconnect().sink { [unowned self]  _ in
             currentWord = source.next() ?? ""
         }
         isRunning = true
