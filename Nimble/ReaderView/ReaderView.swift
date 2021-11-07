@@ -33,16 +33,25 @@ struct ReaderView: View {
       }.padding()
       Spacer()
       HStack {
-        Button {
-          viewModel.goBack10()
-        } label: {
-          Image(systemName: "gobackward.10")
-            .imageScale(.large)
-            .foregroundColor(
-              Color(UIColor.secondaryLabel)
-            )
-        }
-        .hidden(viewModel.isRunning)
+        TextFlowControlButton(
+          image: Image(
+            systemName: "gobackward.10"
+          ),
+          action: viewModel.goBack10
+        )
+          .hidden(viewModel.isRunning)
+
+        
+//        Button {
+//          viewModel.goBack10()
+//        } label: {
+//          Image(systemName: "gobackward.10")
+//            .imageScale(.large)
+//            .foregroundColor(
+//              Color(UIColor.secondaryLabel)
+//            )
+//        }
+//        .hidden(viewModel.isRunning)
         
         Spacer()
         
@@ -50,16 +59,23 @@ struct ReaderView: View {
         
         Spacer()
         
-        Button {
-          viewModel.goForward10()
-        } label: {
-          Image(systemName: "goforward.10")
-            .imageScale(.large)
-            .foregroundColor(
-              Color(UIColor.secondaryLabel)
-            )
-        }
-        .hidden(viewModel.isRunning)
+        TextFlowControlButton(
+          image: Image(
+            systemName: "goforward.10"
+          ),
+          action: viewModel.goForward10
+        )
+          .hidden(viewModel.isRunning)
+
+//        Button {
+//          viewModel.goForward10()
+//        } label: {
+//          Image(systemName: "goforward.10")
+//            .imageScale(.large)
+//            .foregroundColor(
+//              Color(UIColor.secondaryLabel)
+//            )
+//        }
       }
       .padding()
       Spacer()
@@ -90,6 +106,22 @@ struct ReaderView_Previews: PreviewProvider {
   }
 }
 
+extension ReaderView {
+  struct TextFlowControlButton: View {
+    let image: Image
+    let action: () -> Void
+    
+    var body: some View {
+      Button(action: action) {
+        image
+          .imageScale(.large)
+          .foregroundColor(
+            Color(UIColor.secondaryLabel)
+          )
+      }
+    }
+  }
+}
 
 extension ReaderView {
   struct ModalIconButton<Modal: View>: View {
