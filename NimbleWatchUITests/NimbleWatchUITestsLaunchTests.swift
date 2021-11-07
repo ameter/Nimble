@@ -1,13 +1,13 @@
 //
-//  UnsafePointersWatchUITestsLaunchTests.swift
-//  UnsafePointersWatchUITests
+//  NimbleWatchUITestsLaunchTests.swift
+//  NimbleWatchUITestsLaunchTests
 //
 //  Created by UnsafePointers on 11/6/21.
 //
 
 import XCTest
 
-class UnsafePointersWatchUITestsLaunchTests: XCTestCase {
+class NimbleWatchUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

@@ -1,14 +1,14 @@
 //
-//  UnsafePointersTests.swift
-//  UnsafePointersTests
+//  UnsafePointersWatchTests.swift
+//  UnsafePointersWatchTests
 //
-//  Created by UnsafePointers on 11/5/21.
+//  Created by UnsafePointers on 11/6/21.
 //
 
 import XCTest
-@testable import UnsafePointers
+@testable import NimbleWatch_WatchKit_Extension
 
-class UnsafePointersTests: XCTestCase {
+class UnsafePointersWatchTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
