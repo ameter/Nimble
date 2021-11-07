@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import UnsafePointers
+@testable import Nimble
 
 class NimbleTests: XCTestCase {
 

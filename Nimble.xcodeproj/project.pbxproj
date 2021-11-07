@@ -14,30 +14,30 @@
 		CBB1BE21273631DD007586B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB1BE20273631DD007586B3 /* Preview Assets.xcassets */; };
 		CBB1BE23273631DD007586B3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE22273631DD007586B3 /* Persistence.swift */; };
 		CBB1BE26273631DD007586B3 /* UnsafePointers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE24273631DD007586B3 /* UnsafePointers.xcdatamodeld */; };
-		CBB1BE30273631DD007586B3 /* UnsafePointersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE2F273631DD007586B3 /* UnsafePointersTests.swift */; };
-		CBB1BE3A273631DD007586B3 /* UnsafePointersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE39273631DD007586B3 /* UnsafePointersUITests.swift */; };
-		CBB1BE3C273631DD007586B3 /* UnsafePointersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE3B273631DD007586B3 /* UnsafePointersUITestsLaunchTests.swift */; };
+		CBB1BE30273631DD007586B3 /* NimbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE2F273631DD007586B3 /* NimbleTests.swift */; };
+		CBB1BE3A273631DD007586B3 /* NimbleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE39273631DD007586B3 /* NimbleUITests.swift */; };
+		CBB1BE3C273631DD007586B3 /* NimbleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE3B273631DD007586B3 /* NimbleUITestsLaunchTests.swift */; };
 		CBB1BE4C273634E8007586B3 /* TextSourceKit in Frameworks */ = {isa = PBXBuildFile; productRef = CBB1BE4B273634E8007586B3 /* TextSourceKit */; };
 		CBB1BE522736356E007586B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB1BE512736356E007586B3 /* Assets.xcassets */; };
-		CBB1BE582736356E007586B3 /* UnsafePointersWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CBB1BE572736356E007586B3 /* UnsafePointersWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		CBB1BE5D2736356E007586B3 /* UnsafePointersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE5C2736356E007586B3 /* UnsafePointersApp.swift */; };
+		CBB1BE582736356E007586B3 /* NimbleWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CBB1BE572736356E007586B3 /* NimbleWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CBB1BE5D2736356E007586B3 /* NimbleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE5C2736356E007586B3 /* NimbleApp.swift */; };
 		CBB1BE5F2736356E007586B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE5E2736356E007586B3 /* ContentView.swift */; };
 		CBB1BE612736356E007586B3 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE602736356E007586B3 /* NotificationController.swift */; };
 		CBB1BE632736356E007586B3 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE622736356E007586B3 /* NotificationView.swift */; };
 		CBB1BE652736356E007586B3 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE642736356E007586B3 /* ComplicationController.swift */; };
 		CBB1BE6727363570007586B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB1BE6627363570007586B3 /* Assets.xcassets */; };
 		CBB1BE6A27363570007586B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB1BE6927363570007586B3 /* Preview Assets.xcassets */; };
-		CBB1BE7627363570007586B3 /* UnsafePointersWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE7527363570007586B3 /* UnsafePointersWatchTests.swift */; };
-		CBB1BE8027363570007586B3 /* UnsafePointersWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE7F27363570007586B3 /* UnsafePointersWatchUITests.swift */; };
-		CBB1BE8227363570007586B3 /* UnsafePointersWatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE8127363570007586B3 /* UnsafePointersWatchUITestsLaunchTests.swift */; };
-		CBB1BE8527363570007586B3 /* UnsafePointersWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CBB1BE4F2736356C007586B3 /* UnsafePointersWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CBB1BE7627363570007586B3 /* NimbleWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE7527363570007586B3 /* NimbleWatchTests.swift */; };
+		CBB1BE8027363570007586B3 /* NimbleWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE7F27363570007586B3 /* NimbleWatchUITests.swift */; };
+		CBB1BE8227363570007586B3 /* NimbleWatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE8127363570007586B3 /* NimbleWatchUITestsLaunchTests.swift */; };
+		CBB1BE8527363570007586B3 /* NimbleWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CBB1BE4F2736356C007586B3 /* NimbleWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CBB1BE9A273635AB007586B3 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB1BE99273635AB007586B3 /* WidgetKit.framework */; };
 		CBB1BE9C273635AB007586B3 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB1BE9B273635AB007586B3 /* SwiftUI.framework */; };
 		CBB1BE9F273635AB007586B3 /* Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE9E273635AB007586B3 /* Widget.swift */; };
 		CBB1BEA2273635AD007586B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB1BEA1273635AD007586B3 /* Assets.xcassets */; };
 		CBB1BEA4273635AD007586B3 /* Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BEA0273635AB007586B3 /* Widget.intentdefinition */; };
 		CBB1BEA5273635AD007586B3 /* Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BEA0273635AB007586B3 /* Widget.intentdefinition */; };
-		CBB1BEA8273635AD007586B3 /* WidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CBB1BE98273635AB007586B3 /* WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CBB1BEA8273635AD007586B3 /* NimbleWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CBB1BE98273635AB007586B3 /* NimbleWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CBB1BEBA273641E3007586B3 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BEB9273641E3007586B3 /* MenuView.swift */; };
 		CBB1BEBD27364351007586B3 /* View+PreviewAllColorSchemes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BEBC27364351007586B3 /* View+PreviewAllColorSchemes.swift */; };
 		CBB1BEC0273645BC007586B3 /* webster_dictionary in Resources */ = {isa = PBXBuildFile; fileRef = CBB1BEBF273645BC007586B3 /* webster_dictionary */; };
@@ -105,7 +105,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				CBB1BE582736356E007586B3 /* UnsafePointersWatch WatchKit Extension.appex in Embed App Extensions */,
+				CBB1BE582736356E007586B3 /* NimbleWatch WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -116,7 +116,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				CBB1BE8527363570007586B3 /* UnsafePointersWatch.app in Embed Watch Content */,
+				CBB1BE8527363570007586B3 /* NimbleWatch.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -127,7 +127,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				CBB1BEA8273635AD007586B3 /* WidgetExtension.appex in Embed App Extensions */,
+				CBB1BEA8273635AD007586B3 /* NimbleWidgetExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,17 +143,17 @@
 		CBB1BE20273631DD007586B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CBB1BE22273631DD007586B3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		CBB1BE25273631DD007586B3 /* UnsafePointers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UnsafePointers.xcdatamodel; sourceTree = "<group>"; };
-		CBB1BE2B273631DD007586B3 /* UnsafePointersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnsafePointersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBB1BE2F273631DD007586B3 /* UnsafePointersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsafePointersTests.swift; sourceTree = "<group>"; };
-		CBB1BE35273631DD007586B3 /* UnsafePointersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnsafePointersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBB1BE39273631DD007586B3 /* UnsafePointersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsafePointersUITests.swift; sourceTree = "<group>"; };
-		CBB1BE3B273631DD007586B3 /* UnsafePointersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsafePointersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CBB1BE2B273631DD007586B3 /* NimbleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimbleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB1BE2F273631DD007586B3 /* NimbleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimbleTests.swift; sourceTree = "<group>"; };
+		CBB1BE35273631DD007586B3 /* NimbleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimbleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB1BE39273631DD007586B3 /* NimbleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimbleUITests.swift; sourceTree = "<group>"; };
+		CBB1BE3B273631DD007586B3 /* NimbleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimbleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CBB1BE48273634BC007586B3 /* TextSourceKit */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TextSourceKit; sourceTree = "<group>"; };
 		CBB1BE49273634D3007586B3 /* UnsafePointers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UnsafePointers.entitlements; sourceTree = "<group>"; };
-		CBB1BE4F2736356C007586B3 /* UnsafePointersWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnsafePointersWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB1BE4F2736356C007586B3 /* NimbleWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NimbleWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB1BE512736356E007586B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CBB1BE572736356E007586B3 /* UnsafePointersWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "UnsafePointersWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBB1BE5C2736356E007586B3 /* UnsafePointersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsafePointersApp.swift; sourceTree = "<group>"; };
+		CBB1BE572736356E007586B3 /* NimbleWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "NimbleWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB1BE5C2736356E007586B3 /* NimbleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimbleApp.swift; sourceTree = "<group>"; };
 		CBB1BE5E2736356E007586B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CBB1BE602736356E007586B3 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		CBB1BE622736356E007586B3 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
@@ -162,12 +162,12 @@
 		CBB1BE6927363570007586B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CBB1BE6B27363570007586B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBB1BE6C27363570007586B3 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		CBB1BE7127363570007586B3 /* UnsafePointersWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnsafePointersWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBB1BE7527363570007586B3 /* UnsafePointersWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsafePointersWatchTests.swift; sourceTree = "<group>"; };
-		CBB1BE7B27363570007586B3 /* UnsafePointersWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnsafePointersWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBB1BE7F27363570007586B3 /* UnsafePointersWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsafePointersWatchUITests.swift; sourceTree = "<group>"; };
-		CBB1BE8127363570007586B3 /* UnsafePointersWatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsafePointersWatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		CBB1BE98273635AB007586B3 /* WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB1BE7127363570007586B3 /* NimbleWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimbleWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB1BE7527363570007586B3 /* NimbleWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimbleWatchTests.swift; sourceTree = "<group>"; };
+		CBB1BE7B27363570007586B3 /* NimbleWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimbleWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB1BE7F27363570007586B3 /* NimbleWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimbleWatchUITests.swift; sourceTree = "<group>"; };
+		CBB1BE8127363570007586B3 /* NimbleWatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimbleWatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CBB1BE98273635AB007586B3 /* NimbleWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NimbleWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB1BE99273635AB007586B3 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		CBB1BE9B273635AB007586B3 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		CBB1BE9E273635AB007586B3 /* Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widget.swift; sourceTree = "<group>"; };
@@ -251,14 +251,14 @@
 			children = (
 				CBB1BEA9273635AD007586B3 /* WidgetExtension.entitlements */,
 				CBB1BE48273634BC007586B3 /* TextSourceKit */,
-				CBB1BE18273631DB007586B3 /* UnsafePointers */,
-				CBB1BE2E273631DD007586B3 /* UnsafePointersTests */,
-				CBB1BE38273631DD007586B3 /* UnsafePointersUITests */,
-				CBB1BE502736356C007586B3 /* UnsafePointersWatch */,
-				CBB1BE5B2736356E007586B3 /* UnsafePointersWatch WatchKit Extension */,
-				CBB1BE7427363570007586B3 /* UnsafePointersWatchTests */,
-				CBB1BE7E27363570007586B3 /* UnsafePointersWatchUITests */,
-				CBB1BE9D273635AB007586B3 /* Widget */,
+				CBB1BE18273631DB007586B3 /* Nimble */,
+				CBB1BE2E273631DD007586B3 /* NimbleTests */,
+				CBB1BE38273631DD007586B3 /* NimbleUITests */,
+				CBB1BE502736356C007586B3 /* NimbleWatch */,
+				CBB1BE5B2736356E007586B3 /* NimbleWatch WatchKit Extension */,
+				CBB1BE7427363570007586B3 /* NimbleWatchTests */,
+				CBB1BE7E27363570007586B3 /* NimbleWatchUITests */,
+				CBB1BE9D273635AB007586B3 /* NimbleWidget */,
 				CBB1BE17273631DB007586B3 /* Products */,
 				CBB1BE4A273634E8007586B3 /* Frameworks */,
 			);
@@ -268,18 +268,18 @@
 			isa = PBXGroup;
 			children = (
 				CBB1BE16273631DB007586B3 /* nimble.app */,
-				CBB1BE2B273631DD007586B3 /* UnsafePointersTests.xctest */,
-				CBB1BE35273631DD007586B3 /* UnsafePointersUITests.xctest */,
-				CBB1BE4F2736356C007586B3 /* UnsafePointersWatch.app */,
-				CBB1BE572736356E007586B3 /* UnsafePointersWatch WatchKit Extension.appex */,
-				CBB1BE7127363570007586B3 /* UnsafePointersWatchTests.xctest */,
-				CBB1BE7B27363570007586B3 /* UnsafePointersWatchUITests.xctest */,
-				CBB1BE98273635AB007586B3 /* WidgetExtension.appex */,
+				CBB1BE2B273631DD007586B3 /* NimbleTests.xctest */,
+				CBB1BE35273631DD007586B3 /* NimbleUITests.xctest */,
+				CBB1BE4F2736356C007586B3 /* NimbleWatch.app */,
+				CBB1BE572736356E007586B3 /* NimbleWatch WatchKit Extension.appex */,
+				CBB1BE7127363570007586B3 /* NimbleWatchTests.xctest */,
+				CBB1BE7B27363570007586B3 /* NimbleWatchUITests.xctest */,
+				CBB1BE98273635AB007586B3 /* NimbleWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CBB1BE18273631DB007586B3 /* UnsafePointers */ = {
+		CBB1BE18273631DB007586B3 /* Nimble */ = {
 			isa = PBXGroup;
 			children = (
 				8364F64927374AA10061BED5 /* Model */,
@@ -294,7 +294,7 @@
 				CBB1BE24273631DD007586B3 /* UnsafePointers.xcdatamodeld */,
 				CBB1BE1F273631DD007586B3 /* Preview Content */,
 			);
-			path = UnsafePointers;
+			path = Nimble;
 			sourceTree = "<group>";
 		};
 		CBB1BE1F273631DD007586B3 /* Preview Content */ = {
@@ -305,21 +305,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		CBB1BE2E273631DD007586B3 /* UnsafePointersTests */ = {
+		CBB1BE2E273631DD007586B3 /* NimbleTests */ = {
 			isa = PBXGroup;
 			children = (
-				CBB1BE2F273631DD007586B3 /* UnsafePointersTests.swift */,
+				CBB1BE2F273631DD007586B3 /* NimbleTests.swift */,
 			);
-			path = UnsafePointersTests;
+			path = NimbleTests;
 			sourceTree = "<group>";
 		};
-		CBB1BE38273631DD007586B3 /* UnsafePointersUITests */ = {
+		CBB1BE38273631DD007586B3 /* NimbleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				CBB1BE39273631DD007586B3 /* UnsafePointersUITests.swift */,
-				CBB1BE3B273631DD007586B3 /* UnsafePointersUITestsLaunchTests.swift */,
+				CBB1BE39273631DD007586B3 /* NimbleUITests.swift */,
+				CBB1BE3B273631DD007586B3 /* NimbleUITestsLaunchTests.swift */,
 			);
-			path = UnsafePointersUITests;
+			path = NimbleUITests;
 			sourceTree = "<group>";
 		};
 		CBB1BE4A273634E8007586B3 /* Frameworks */ = {
@@ -331,18 +331,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CBB1BE502736356C007586B3 /* UnsafePointersWatch */ = {
+		CBB1BE502736356C007586B3 /* NimbleWatch */ = {
 			isa = PBXGroup;
 			children = (
 				CBB1BE512736356E007586B3 /* Assets.xcassets */,
 			);
-			path = UnsafePointersWatch;
+			path = NimbleWatch;
 			sourceTree = "<group>";
 		};
-		CBB1BE5B2736356E007586B3 /* UnsafePointersWatch WatchKit Extension */ = {
+		CBB1BE5B2736356E007586B3 /* NimbleWatch WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				CBB1BE5C2736356E007586B3 /* UnsafePointersApp.swift */,
+				CBB1BE5C2736356E007586B3 /* NimbleApp.swift */,
 				CBB1BE5E2736356E007586B3 /* ContentView.swift */,
 				CBB1BE602736356E007586B3 /* NotificationController.swift */,
 				CBB1BE622736356E007586B3 /* NotificationView.swift */,
@@ -352,7 +352,7 @@
 				CBB1BE6C27363570007586B3 /* PushNotificationPayload.apns */,
 				CBB1BE6827363570007586B3 /* Preview Content */,
 			);
-			path = "UnsafePointersWatch WatchKit Extension";
+			path = "NimbleWatch WatchKit Extension";
 			sourceTree = "<group>";
 		};
 		CBB1BE6827363570007586B3 /* Preview Content */ = {
@@ -363,24 +363,24 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		CBB1BE7427363570007586B3 /* UnsafePointersWatchTests */ = {
+		CBB1BE7427363570007586B3 /* NimbleWatchTests */ = {
 			isa = PBXGroup;
 			children = (
-				CBB1BE7527363570007586B3 /* UnsafePointersWatchTests.swift */,
+				CBB1BE7527363570007586B3 /* NimbleWatchTests.swift */,
 			);
-			path = UnsafePointersWatchTests;
+			path = NimbleWatchTests;
 			sourceTree = "<group>";
 		};
-		CBB1BE7E27363570007586B3 /* UnsafePointersWatchUITests */ = {
+		CBB1BE7E27363570007586B3 /* NimbleWatchUITests */ = {
 			isa = PBXGroup;
 			children = (
-				CBB1BE7F27363570007586B3 /* UnsafePointersWatchUITests.swift */,
-				CBB1BE8127363570007586B3 /* UnsafePointersWatchUITestsLaunchTests.swift */,
+				CBB1BE7F27363570007586B3 /* NimbleWatchUITests.swift */,
+				CBB1BE8127363570007586B3 /* NimbleWatchUITestsLaunchTests.swift */,
 			);
-			path = UnsafePointersWatchUITests;
+			path = NimbleWatchUITests;
 			sourceTree = "<group>";
 		};
-		CBB1BE9D273635AB007586B3 /* Widget */ = {
+		CBB1BE9D273635AB007586B3 /* NimbleWidget */ = {
 			isa = PBXGroup;
 			children = (
 				CBB1BE9E273635AB007586B3 /* Widget.swift */,
@@ -388,7 +388,7 @@
 				CBB1BEA1273635AD007586B3 /* Assets.xcassets */,
 				CBB1BEA3273635AD007586B3 /* Info.plist */,
 			);
-			path = Widget;
+			path = NimbleWidget;
 			sourceTree = "<group>";
 		};
 		CBB1BEBB2736433A007586B3 /* Extensions */ = {
@@ -428,9 +428,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CBB1BE15273631DB007586B3 /* UnsafePointers */ = {
+		CBB1BE15273631DB007586B3 /* Nimble */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CBB1BE3F273631DD007586B3 /* Build configuration list for PBXNativeTarget "UnsafePointers" */;
+			buildConfigurationList = CBB1BE3F273631DD007586B3 /* Build configuration list for PBXNativeTarget "Nimble" */;
 			buildPhases = (
 				CBB1BE12273631DB007586B3 /* Sources */,
 				CBB1BE13273631DB007586B3 /* Frameworks */,
@@ -444,7 +444,7 @@
 				CBB1BE8427363570007586B3 /* PBXTargetDependency */,
 				CBB1BEA7273635AD007586B3 /* PBXTargetDependency */,
 			);
-			name = UnsafePointers;
+			name = Nimble;
 			packageProductDependencies = (
 				CBB1BE4B273634E8007586B3 /* TextSourceKit */,
 			);
@@ -452,9 +452,9 @@
 			productReference = CBB1BE16273631DB007586B3 /* nimble.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CBB1BE2A273631DD007586B3 /* UnsafePointersTests */ = {
+		CBB1BE2A273631DD007586B3 /* NimbleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CBB1BE42273631DD007586B3 /* Build configuration list for PBXNativeTarget "UnsafePointersTests" */;
+			buildConfigurationList = CBB1BE42273631DD007586B3 /* Build configuration list for PBXNativeTarget "NimbleTests" */;
 			buildPhases = (
 				CBB1BE27273631DD007586B3 /* Sources */,
 				CBB1BE28273631DD007586B3 /* Frameworks */,
@@ -465,14 +465,14 @@
 			dependencies = (
 				CBB1BE2D273631DD007586B3 /* PBXTargetDependency */,
 			);
-			name = UnsafePointersTests;
+			name = NimbleTests;
 			productName = UnsafePointersTests;
-			productReference = CBB1BE2B273631DD007586B3 /* UnsafePointersTests.xctest */;
+			productReference = CBB1BE2B273631DD007586B3 /* NimbleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CBB1BE34273631DD007586B3 /* UnsafePointersUITests */ = {
+		CBB1BE34273631DD007586B3 /* NimbleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CBB1BE45273631DD007586B3 /* Build configuration list for PBXNativeTarget "UnsafePointersUITests" */;
+			buildConfigurationList = CBB1BE45273631DD007586B3 /* Build configuration list for PBXNativeTarget "NimbleUITests" */;
 			buildPhases = (
 				CBB1BE31273631DD007586B3 /* Sources */,
 				CBB1BE32273631DD007586B3 /* Frameworks */,
@@ -483,14 +483,14 @@
 			dependencies = (
 				CBB1BE37273631DD007586B3 /* PBXTargetDependency */,
 			);
-			name = UnsafePointersUITests;
+			name = NimbleUITests;
 			productName = UnsafePointersUITests;
-			productReference = CBB1BE35273631DD007586B3 /* UnsafePointersUITests.xctest */;
+			productReference = CBB1BE35273631DD007586B3 /* NimbleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		CBB1BE4E2736356C007586B3 /* UnsafePointersWatch */ = {
+		CBB1BE4E2736356C007586B3 /* NimbleWatch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CBB1BE8A27363570007586B3 /* Build configuration list for PBXNativeTarget "UnsafePointersWatch" */;
+			buildConfigurationList = CBB1BE8A27363570007586B3 /* Build configuration list for PBXNativeTarget "NimbleWatch" */;
 			buildPhases = (
 				CBB1BE4D2736356C007586B3 /* Resources */,
 				CBB1BE8927363570007586B3 /* Embed App Extensions */,
@@ -500,14 +500,14 @@
 			dependencies = (
 				CBB1BE5A2736356E007586B3 /* PBXTargetDependency */,
 			);
-			name = UnsafePointersWatch;
+			name = NimbleWatch;
 			productName = UnsafePointersWatch;
-			productReference = CBB1BE4F2736356C007586B3 /* UnsafePointersWatch.app */;
+			productReference = CBB1BE4F2736356C007586B3 /* NimbleWatch.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
-		CBB1BE562736356E007586B3 /* UnsafePointersWatch WatchKit Extension */ = {
+		CBB1BE562736356E007586B3 /* NimbleWatch WatchKit Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CBB1BE8627363570007586B3 /* Build configuration list for PBXNativeTarget "UnsafePointersWatch WatchKit Extension" */;
+			buildConfigurationList = CBB1BE8627363570007586B3 /* Build configuration list for PBXNativeTarget "NimbleWatch WatchKit Extension" */;
 			buildPhases = (
 				CBB1BE532736356E007586B3 /* Sources */,
 				CBB1BE542736356E007586B3 /* Frameworks */,
@@ -517,14 +517,14 @@
 			);
 			dependencies = (
 			);
-			name = "UnsafePointersWatch WatchKit Extension";
+			name = "NimbleWatch WatchKit Extension";
 			productName = "UnsafePointersWatch WatchKit Extension";
-			productReference = CBB1BE572736356E007586B3 /* UnsafePointersWatch WatchKit Extension.appex */;
+			productReference = CBB1BE572736356E007586B3 /* NimbleWatch WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
-		CBB1BE7027363570007586B3 /* UnsafePointersWatchTests */ = {
+		CBB1BE7027363570007586B3 /* NimbleWatchTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CBB1BE8E27363570007586B3 /* Build configuration list for PBXNativeTarget "UnsafePointersWatchTests" */;
+			buildConfigurationList = CBB1BE8E27363570007586B3 /* Build configuration list for PBXNativeTarget "NimbleWatchTests" */;
 			buildPhases = (
 				CBB1BE6D27363570007586B3 /* Sources */,
 				CBB1BE6E27363570007586B3 /* Frameworks */,
@@ -535,14 +535,14 @@
 			dependencies = (
 				CBB1BE7327363570007586B3 /* PBXTargetDependency */,
 			);
-			name = UnsafePointersWatchTests;
+			name = NimbleWatchTests;
 			productName = UnsafePointersWatchTests;
-			productReference = CBB1BE7127363570007586B3 /* UnsafePointersWatchTests.xctest */;
+			productReference = CBB1BE7127363570007586B3 /* NimbleWatchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CBB1BE7A27363570007586B3 /* UnsafePointersWatchUITests */ = {
+		CBB1BE7A27363570007586B3 /* NimbleWatchUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CBB1BE9127363570007586B3 /* Build configuration list for PBXNativeTarget "UnsafePointersWatchUITests" */;
+			buildConfigurationList = CBB1BE9127363570007586B3 /* Build configuration list for PBXNativeTarget "NimbleWatchUITests" */;
 			buildPhases = (
 				CBB1BE7727363570007586B3 /* Sources */,
 				CBB1BE7827363570007586B3 /* Frameworks */,
@@ -553,14 +553,14 @@
 			dependencies = (
 				CBB1BE7D27363570007586B3 /* PBXTargetDependency */,
 			);
-			name = UnsafePointersWatchUITests;
+			name = NimbleWatchUITests;
 			productName = UnsafePointersWatchUITests;
-			productReference = CBB1BE7B27363570007586B3 /* UnsafePointersWatchUITests.xctest */;
+			productReference = CBB1BE7B27363570007586B3 /* NimbleWatchUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		CBB1BE97273635AB007586B3 /* WidgetExtension */ = {
+		CBB1BE97273635AB007586B3 /* NimbleWidgetExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CBB1BEAA273635AD007586B3 /* Build configuration list for PBXNativeTarget "WidgetExtension" */;
+			buildConfigurationList = CBB1BEAA273635AD007586B3 /* Build configuration list for PBXNativeTarget "NimbleWidgetExtension" */;
 			buildPhases = (
 				CBB1BE94273635AB007586B3 /* Sources */,
 				CBB1BE95273635AB007586B3 /* Frameworks */,
@@ -570,9 +570,9 @@
 			);
 			dependencies = (
 			);
-			name = WidgetExtension;
+			name = NimbleWidgetExtension;
 			productName = WidgetExtension;
-			productReference = CBB1BE98273635AB007586B3 /* WidgetExtension.appex */;
+			productReference = CBB1BE98273635AB007586B3 /* NimbleWidgetExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -615,7 +615,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CBB1BE11273631DB007586B3 /* Build configuration list for PBXProject "UnsafePointers" */;
+			buildConfigurationList = CBB1BE11273631DB007586B3 /* Build configuration list for PBXProject "Nimble" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -628,14 +628,14 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CBB1BE15273631DB007586B3 /* UnsafePointers */,
-				CBB1BE2A273631DD007586B3 /* UnsafePointersTests */,
-				CBB1BE34273631DD007586B3 /* UnsafePointersUITests */,
-				CBB1BE4E2736356C007586B3 /* UnsafePointersWatch */,
-				CBB1BE562736356E007586B3 /* UnsafePointersWatch WatchKit Extension */,
-				CBB1BE7027363570007586B3 /* UnsafePointersWatchTests */,
-				CBB1BE7A27363570007586B3 /* UnsafePointersWatchUITests */,
-				CBB1BE97273635AB007586B3 /* WidgetExtension */,
+				CBB1BE15273631DB007586B3 /* Nimble */,
+				CBB1BE2A273631DD007586B3 /* NimbleTests */,
+				CBB1BE34273631DD007586B3 /* NimbleUITests */,
+				CBB1BE4E2736356C007586B3 /* NimbleWatch */,
+				CBB1BE562736356E007586B3 /* NimbleWatch WatchKit Extension */,
+				CBB1BE7027363570007586B3 /* NimbleWatchTests */,
+				CBB1BE7A27363570007586B3 /* NimbleWatchUITests */,
+				CBB1BE97273635AB007586B3 /* NimbleWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -728,7 +728,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBB1BE30273631DD007586B3 /* UnsafePointersTests.swift in Sources */,
+				CBB1BE30273631DD007586B3 /* NimbleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -736,8 +736,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBB1BE3C273631DD007586B3 /* UnsafePointersUITestsLaunchTests.swift in Sources */,
-				CBB1BE3A273631DD007586B3 /* UnsafePointersUITests.swift in Sources */,
+				CBB1BE3C273631DD007586B3 /* NimbleUITestsLaunchTests.swift in Sources */,
+				CBB1BE3A273631DD007586B3 /* NimbleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -748,7 +748,7 @@
 				CBB1BE612736356E007586B3 /* NotificationController.swift in Sources */,
 				CBB1BE5F2736356E007586B3 /* ContentView.swift in Sources */,
 				CBB1BE652736356E007586B3 /* ComplicationController.swift in Sources */,
-				CBB1BE5D2736356E007586B3 /* UnsafePointersApp.swift in Sources */,
+				CBB1BE5D2736356E007586B3 /* NimbleApp.swift in Sources */,
 				CBB1BE632736356E007586B3 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -757,7 +757,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBB1BE7627363570007586B3 /* UnsafePointersWatchTests.swift in Sources */,
+				CBB1BE7627363570007586B3 /* NimbleWatchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -765,8 +765,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBB1BE8227363570007586B3 /* UnsafePointersWatchUITestsLaunchTests.swift in Sources */,
-				CBB1BE8027363570007586B3 /* UnsafePointersWatchUITests.swift in Sources */,
+				CBB1BE8227363570007586B3 /* NimbleWatchUITestsLaunchTests.swift in Sources */,
+				CBB1BE8027363570007586B3 /* NimbleWatchUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -785,37 +785,37 @@
 /* Begin PBXTargetDependency section */
 		CBB1BE2D273631DD007586B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CBB1BE15273631DB007586B3 /* UnsafePointers */;
+			target = CBB1BE15273631DB007586B3 /* Nimble */;
 			targetProxy = CBB1BE2C273631DD007586B3 /* PBXContainerItemProxy */;
 		};
 		CBB1BE37273631DD007586B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CBB1BE15273631DB007586B3 /* UnsafePointers */;
+			target = CBB1BE15273631DB007586B3 /* Nimble */;
 			targetProxy = CBB1BE36273631DD007586B3 /* PBXContainerItemProxy */;
 		};
 		CBB1BE5A2736356E007586B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CBB1BE562736356E007586B3 /* UnsafePointersWatch WatchKit Extension */;
+			target = CBB1BE562736356E007586B3 /* NimbleWatch WatchKit Extension */;
 			targetProxy = CBB1BE592736356E007586B3 /* PBXContainerItemProxy */;
 		};
 		CBB1BE7327363570007586B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CBB1BE562736356E007586B3 /* UnsafePointersWatch WatchKit Extension */;
+			target = CBB1BE562736356E007586B3 /* NimbleWatch WatchKit Extension */;
 			targetProxy = CBB1BE7227363570007586B3 /* PBXContainerItemProxy */;
 		};
 		CBB1BE7D27363570007586B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CBB1BE4E2736356C007586B3 /* UnsafePointersWatch */;
+			target = CBB1BE4E2736356C007586B3 /* NimbleWatch */;
 			targetProxy = CBB1BE7C27363570007586B3 /* PBXContainerItemProxy */;
 		};
 		CBB1BE8427363570007586B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CBB1BE4E2736356C007586B3 /* UnsafePointersWatch */;
+			target = CBB1BE4E2736356C007586B3 /* NimbleWatch */;
 			targetProxy = CBB1BE8327363570007586B3 /* PBXContainerItemProxy */;
 		};
 		CBB1BEA7273635AD007586B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CBB1BE97273635AB007586B3 /* WidgetExtension */;
+			target = CBB1BE97273635AB007586B3 /* NimbleWidgetExtension */;
 			targetProxy = CBB1BEA6273635AD007586B3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -946,7 +946,7 @@
 				CODE_SIGN_ENTITLEMENTS = UnsafePointers/UnsafePointers.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"UnsafePointers/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Nimble/Preview Content\"";
 				DEVELOPMENT_TEAM = G3Q4R66M4R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -979,7 +979,7 @@
 				CODE_SIGN_ENTITLEMENTS = UnsafePointers/UnsafePointers.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"UnsafePointers/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Nimble/Preview Content\"";
 				DEVELOPMENT_TEAM = G3Q4R66M4R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -1019,12 +1019,12 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.unsafepointers.UnsafePointersTests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.unsafepointers.NimbleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnsafePointers.app/UnsafePointers";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nimble.app/Nimble";
 			};
 			name = Debug;
 		};
@@ -1044,12 +1044,12 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.unsafepointers.UnsafePointersTests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.unsafepointers.NimbleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnsafePointers.app/UnsafePointers";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nimble.app/Nimble";
 			};
 			name = Release;
 		};
@@ -1067,7 +1067,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.unsafepointers.UnsafePointersUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.unsafepointers.NimbleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -1090,7 +1090,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.unsafepointers.UnsafePointersUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.unsafepointers.NimbleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -1105,13 +1105,13 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"UnsafePointersWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"NimbleWatch WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = G3Q4R66M4R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "UnsafePointersWatch WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "UnsafePointersWatch WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = UnsafePointersWatch_WatchKit_Extension.ComplicationController;
+				INFOPLIST_FILE = "NimbleWatch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "NimbleWatch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = NimbleWatch_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1136,13 +1136,13 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"UnsafePointersWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"NimbleWatch WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = G3Q4R66M4R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "UnsafePointersWatch WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "UnsafePointersWatch WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = UnsafePointersWatch_WatchKit_Extension.ComplicationController;
+				INFOPLIST_FILE = "NimbleWatch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "NimbleWatch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = NimbleWatch_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1172,12 +1172,11 @@
 				DEVELOPMENT_TEAM = G3Q4R66M4R;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = UnsafePointersWatch_WatchKit_Extension;
-				INFOPLIST_KEY_CFBundleDisplayName = UnsafePointersWatch;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = io.unsafepointers.UnsafePointers;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = io.unsafepointers.nimble;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.unsafepointers.nimble.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = NimbleWatch;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1198,12 +1197,11 @@
 				DEVELOPMENT_TEAM = G3Q4R66M4R;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = UnsafePointersWatch_WatchKit_Extension;
-				INFOPLIST_KEY_CFBundleDisplayName = UnsafePointersWatch;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = io.unsafepointers.UnsafePointers;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = io.unsafepointers.nimble;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.unsafepointers.nimble.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = NimbleWatch;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1228,13 +1226,13 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.unsafepointers.UnsafePointers.UnsafePointersWatchTests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.unsafepointers.Nimble.NimbleWatchTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnsafePointersWatch WatchKit Extension.appex/UnsafePointersWatch WatchKit Extension";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NimbleWatch WatchKit Extension.appex/NimbleWatch WatchKit Extension";
 				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Debug;
@@ -1254,13 +1252,13 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.unsafepointers.UnsafePointers.UnsafePointersWatchTests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.unsafepointers.Nimble.NimbleWatchTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnsafePointersWatch WatchKit Extension.appex/UnsafePointersWatch WatchKit Extension";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NimbleWatch WatchKit Extension.appex/NimbleWatch WatchKit Extension";
 				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Release;
@@ -1278,7 +1276,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.unsafepointers.UnsafePointers.UnsafePointersWatchUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.unsafepointers.Nimble.NimbleWatchUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -1302,7 +1300,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.unsafepointers.UnsafePointers.UnsafePointersWatchUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.unsafepointers.Nimble.NimbleWatchUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -1323,8 +1321,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G3Q4R66M4R;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Widget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Widget;
+				INFOPLIST_FILE = NimbleWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NimbleWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1352,8 +1350,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G3Q4R66M4R;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Widget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Widget;
+				INFOPLIST_FILE = NimbleWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NimbleWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1374,7 +1372,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CBB1BE11273631DB007586B3 /* Build configuration list for PBXProject "UnsafePointers" */ = {
+		CBB1BE11273631DB007586B3 /* Build configuration list for PBXProject "Nimble" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CBB1BE3D273631DD007586B3 /* Debug */,
@@ -1383,7 +1381,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CBB1BE3F273631DD007586B3 /* Build configuration list for PBXNativeTarget "UnsafePointers" */ = {
+		CBB1BE3F273631DD007586B3 /* Build configuration list for PBXNativeTarget "Nimble" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CBB1BE40273631DD007586B3 /* Debug */,
@@ -1392,7 +1390,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CBB1BE42273631DD007586B3 /* Build configuration list for PBXNativeTarget "UnsafePointersTests" */ = {
+		CBB1BE42273631DD007586B3 /* Build configuration list for PBXNativeTarget "NimbleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CBB1BE43273631DD007586B3 /* Debug */,
@@ -1401,7 +1399,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CBB1BE45273631DD007586B3 /* Build configuration list for PBXNativeTarget "UnsafePointersUITests" */ = {
+		CBB1BE45273631DD007586B3 /* Build configuration list for PBXNativeTarget "NimbleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CBB1BE46273631DD007586B3 /* Debug */,
@@ -1410,7 +1408,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CBB1BE8627363570007586B3 /* Build configuration list for PBXNativeTarget "UnsafePointersWatch WatchKit Extension" */ = {
+		CBB1BE8627363570007586B3 /* Build configuration list for PBXNativeTarget "NimbleWatch WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CBB1BE8727363570007586B3 /* Debug */,
@@ -1419,7 +1417,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CBB1BE8A27363570007586B3 /* Build configuration list for PBXNativeTarget "UnsafePointersWatch" */ = {
+		CBB1BE8A27363570007586B3 /* Build configuration list for PBXNativeTarget "NimbleWatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CBB1BE8B27363570007586B3 /* Debug */,
@@ -1428,7 +1426,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CBB1BE8E27363570007586B3 /* Build configuration list for PBXNativeTarget "UnsafePointersWatchTests" */ = {
+		CBB1BE8E27363570007586B3 /* Build configuration list for PBXNativeTarget "NimbleWatchTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CBB1BE8F27363570007586B3 /* Debug */,
@@ -1437,7 +1435,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CBB1BE9127363570007586B3 /* Build configuration list for PBXNativeTarget "UnsafePointersWatchUITests" */ = {
+		CBB1BE9127363570007586B3 /* Build configuration list for PBXNativeTarget "NimbleWatchUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CBB1BE9227363570007586B3 /* Debug */,
@@ -1446,7 +1444,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CBB1BEAA273635AD007586B3 /* Build configuration list for PBXNativeTarget "WidgetExtension" */ = {
+		CBB1BEAA273635AD007586B3 /* Build configuration list for PBXNativeTarget "NimbleWidgetExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CBB1BEAB273635AD007586B3 /* Debug */,
