@@ -10,8 +10,7 @@ import SwiftUI
 import TextSourceKit
 
 struct MenuView: View {
-  @ObservedObject var viewModel: MenuViewModel// = MenuViewModel()
-//  let textModel: TextModel
+  @ObservedObject var viewModel: MenuViewModel
   
   init(_ textModel: TextModel) {
     self.viewModel = .init(textModel: textModel)

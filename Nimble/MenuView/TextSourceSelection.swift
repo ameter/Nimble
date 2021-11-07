@@ -15,6 +15,7 @@ struct TextSourceSelection: Identifiable, Equatable {
   @ViewBuilder func childView(_ textModel: TextModel) -> some View {
     switch self {
     case .pdf: PDFSelectionChildView(textModel: textModel)
+    case .website: WebsiteSelectionChildView(textModel: textModel)
     default: EmptyView()
     }
   }
@@ -22,11 +23,12 @@ struct TextSourceSelection: Identifiable, Equatable {
 
 extension TextSourceSelection {
   static let pdf: Self = .init(name: "PDF")
+  static let website: Self = .init(name: "Website")
   
   static let allOptions: [TextSourceSelection] = [
-    .pdf
+    .pdf,
+    .website
     //    "Copy and Paste",
-    //    "Website",
     //    "RSS Feed",
     //    ".epub"
   ]

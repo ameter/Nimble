@@ -19,6 +19,7 @@
 		CB6B5BCB2738598A00CA397D /* AnyTextSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B5BCA2738598A00CA397D /* AnyTextSource.swift */; };
 		CB6B5BCD27386F8E00CA397D /* PDFSelectionChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B5BCC27386F8E00CA397D /* PDFSelectionChildView.swift */; };
 		CB6B5BCF27386FF500CA397D /* TextSourceSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B5BCE27386FF500CA397D /* TextSourceSelection.swift */; };
+		CB6B5BD12738785B00CA397D /* WebsiteSelectionChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B5BD02738785B00CA397D /* WebsiteSelectionChildView.swift */; };
 		CBB1BE1A273631DB007586B3 /* UnsafePointersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE19273631DB007586B3 /* UnsafePointersApp.swift */; };
 		CBB1BE1C273631DB007586B3 /* ReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1BE1B273631DB007586B3 /* ReaderView.swift */; };
 		CBB1BE1E273631DD007586B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB1BE1D273631DD007586B3 /* Assets.xcassets */; };
@@ -156,6 +157,7 @@
 		CB6B5BCA2738598A00CA397D /* AnyTextSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTextSource.swift; sourceTree = "<group>"; };
 		CB6B5BCC27386F8E00CA397D /* PDFSelectionChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFSelectionChildView.swift; sourceTree = "<group>"; };
 		CB6B5BCE27386FF500CA397D /* TextSourceSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSourceSelection.swift; sourceTree = "<group>"; };
+		CB6B5BD02738785B00CA397D /* WebsiteSelectionChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteSelectionChildView.swift; sourceTree = "<group>"; };
 		CBB1BE16273631DB007586B3 /* nimble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nimble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB1BE19273631DB007586B3 /* UnsafePointersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsafePointersApp.swift; sourceTree = "<group>"; };
 		CBB1BE1B273631DB007586B3 /* ReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderView.swift; sourceTree = "<group>"; };
@@ -464,6 +466,7 @@
 				CBB1BEB9273641E3007586B3 /* MenuView.swift */,
 				CB6B5BC627384D0700CA397D /* MenuViewModel.swift */,
 				CB6B5BCC27386F8E00CA397D /* PDFSelectionChildView.swift */,
+				CB6B5BD02738785B00CA397D /* WebsiteSelectionChildView.swift */,
 				CB6B5BC82738596900CA397D /* DocumentPicker.swift */,
 				CB6B5BCA2738598A00CA397D /* AnyTextSource.swift */,
 				CB6B5BCE27386FF500CA397D /* TextSourceSelection.swift */,
@@ -766,6 +769,7 @@
 				CBB1BEBA273641E3007586B3 /* MenuView.swift in Sources */,
 				CBB1BEBD27364351007586B3 /* View+PreviewAllColorSchemes.swift in Sources */,
 				CBB1BE26273631DD007586B3 /* UnsafePointers.xcdatamodeld in Sources */,
+				CB6B5BD12738785B00CA397D /* WebsiteSelectionChildView.swift in Sources */,
 				CBB62D4027365638000157BE /* Helpers.swift in Sources */,
 				CB6B5BCD27386F8E00CA397D /* PDFSelectionChildView.swift in Sources */,
 				CBB1BE1C273631DB007586B3 /* ReaderView.swift in Sources */,
