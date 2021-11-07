@@ -15,9 +15,9 @@ class ReaderViewModel: ObservableObject {
     @Published var currentSource: TextModel?
     @Published var sources = [TextModel]()
     @Published var isRunning = false
-    private var timerCancellable: Cancellable?
-    
     @Published var wpm = 200
+    
+    private var timerCancellable: Cancellable?
     
     func selectSource() {
         print("\(#function)")
